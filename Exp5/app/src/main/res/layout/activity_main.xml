@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="72dp"
+        android:hint="Enter Name" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="220dp"
+        android:layout_height="61dp"
+
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="510dp"
+        android:text="21BCS-KRG-SC-1"
+        android:textSize='18sp' />
+
+    <Button
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="233dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="256dp"
+        android:onClick="submitForm"
+        android:text="JOIN" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="335dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="238dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="327dp">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="219dp"
+            android:layout_height="61dp"
+            android:text="Group A"
+
+            android:textSize='18sp' />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="219dp"
+            android:layout_height="65dp"
+            android:text="Group B"
+
+            android:textSize='18sp' />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="267dp"
+        android:layout_marginBottom="252dp"
+        android:text="CLEAR"
+        android:onClick="clearSelection"/>
+
+
+</RelativeLayout>

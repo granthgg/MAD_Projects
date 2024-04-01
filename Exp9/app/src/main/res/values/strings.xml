@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Experiment_9</string>
+    <string name="about_toast">This is an app demonstrating the use of menus and action bars in Android.</string>
+
+</resources>
